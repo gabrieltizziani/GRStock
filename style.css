@@ -1,0 +1,50 @@
+body{
+    background-color:#176B87;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+img {
+    width: 100px;
+    margin: 0px;
+   
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04364A;
+}
+
+
+.tituloprinc{
+    color: #ffffff;
+    
+}
+
+.estoque{
+    width: auto;
+    height: 60px;
+}
+
+#userscontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.func_principais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 50px;
+    font-family: Anton;
+
+}
+
+
