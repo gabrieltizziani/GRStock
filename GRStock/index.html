@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRStock</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="cabecalho">
+    <h1 class="tituloprinc">GRStock</h1>
+    <img class="estoque" src="imgs/estoque-pronto.png" alt="">
+</div>
+<div id="userscontainer">
+    <div class="func_principais cadastro">
+        <img src="imgs/cadastro.png" alt="cadastro" onclick="botaoCadastro()">
+        <p class="funcao">Cadastro</p>
+    </div>
+    <div class="func_principais funcio">
+        <img src="imgs/carteira-de-identidade.png" alt="funcionarios" onclick="botaoFuncionarios()">
+        <p class="func">Funcionários</p>
+    </div>
+</div>
+<div class="userscontainer2">
+    <div class="func_principais entrada">
+        <img src="imgs/caixa-de-entrada.png" alt="funcionarios" onclick="botaoEntrada()">
+        <p class="entr">Entrada</p>
+    </div>
+    <div class="func_principais saida" alt="funcionarios" onclick="botaoSaida()">
+    <img src="imgs/sair.png">
+    <p class="said">Saída</p>
+    </div>
+</div>
+
+
+<div class="userscontainer3">
+    <div class="func_principais">
+        <img src="imgs/relatorio-de-negocios.png" alt="relatorio" onclick="botaoRelatorio()">
+        <p class="relator">Relatório</p>
+    </div>
+
+</div>
+<script>
+    function botaoCadastro() {
+        window.location.href = "Cadastro.html";
+    }
+    function botaoFuncionarios() {
+        window.location.href = "Funcionarios.html";
+    }
+    function botaoEntrada() {
+        window.location.href = "Entrada.html";
+    }
+    function botaoSaida() {
+        window.location.href = "Saida.html";
+    }
+    function botaoRelatorio() {
+        window.location.href = "Relatorio.html";
+    }
+</script>
+
+</body>
+</html>
