@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRStock</title>
+    <link rel="stylesheet" href="styleFuncionarios.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <body>
+        <div class="cabecalho">
+           <h1 class="tituloprinc">GRStock</h1>
+           <img class="estoque" src="imgs/estoque-pronto.png" alt="">
+       </div>
+       <div>
+        <a href="index.html">
+            <img class="voltar" src="imgs/botao-home.png" alt="Voltar para a página inicial">
+        </a>
+    </div>
+       <h1 class="TituloSecundario">Funcionários</h1>
+       
+
+       <form>
+        <table>
+            <!--Nome do funcionário-->
+            <tr>
+                <td class="alinharRotulos">Nome do funcionário:</td>
+                <td><input id="txtNomeFuncionario" type="text"></td>
+            </tr>
+            <!--Função do funcionário-->
+            <tr>
+                <td class="alinharRotulos">Função do funcionário:</td>
+                <td><input id="txtFuncaoFuncionario" type="text"></td>
+            </tr>
+            
+            <!--Botoes-->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarFuncionario('txtNomeFuncionario','txtFuncaoFuncionario')">
+                    <input type="button" value="Ver funcionários" class="alinhaBtns" onclick="window.open('verFuncionarios.html','_self')">
+                    <input type="reset" value="Limpar" class="alinhaBtns">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+       </body>
+       </html>

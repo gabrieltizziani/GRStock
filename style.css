@@ -36,6 +36,7 @@ img {
 #userscontainer {
     display: flex;
     justify-content: center;
+    color: #ffffff;
 }
 
 .func_principais {
@@ -46,8 +47,10 @@ img {
     font-family: Anton;
 }
 
+
 .func_principais p {
     margin-top: 2px;
+    color: #ffffff;
 }
 
 
@@ -66,6 +69,9 @@ img {
     display: flex;
     justify-content: center;
 }
+.funcio img {
+    width: 117px;
+}
 
 .saida img {
     margin-left: 40px;
@@ -77,5 +83,6 @@ img {
     margin-left: 10px;
 }
 
-
-
+.btn{
+    
+}
