@@ -31,7 +31,7 @@
             <!--Código do produto-->
             <tr>
                 <td class="alinharRotulos">Código do produto:</td>
-                <td><input id="txtCodProduto" type="text"></td>
+                <td><input id="txtCodProduto" type="text"></td> 
             </tr>
             <!--Nome do produto-->
             <tr>
@@ -39,19 +39,12 @@
                 <td><input id="txtNomeProduto" type="text"></td>
             </tr>
             <!--Quantidade do produto-->
+
             <tr>
-                <td class="alinharRotulos">Quantidade do produto:</td>
-                <td>
-                    <select id="qtidadeProduto">
-                        <option value="0">0</option>
-                        <script>
-                            for (let i = 1; i <= 50; i++) {
-                                document.write('<option value="' + i + '">' + i + '</option>');
-                            }
-                        </script>
-                    </select>
-                </td>
+                <td class="alinharRotulos">Quantidade de Produto:</td>
+                <td><input id="qtidadeProduto" type="number"></td>
             </tr>
+            
             
             <!--Botoes-->
             <tr>
